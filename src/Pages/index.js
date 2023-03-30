@@ -153,21 +153,21 @@ const MainPage = () => {
               size={20}
               style={{ height: "auto", maxWidth: "160px", width: "160px" }}
               value={record.basket_location}
-              bgColor="red"
+//               bgColor="red"
             />
           ) : record.basket_location.length === 7 ? (
             <QRCode
               size={20}
               style={{ height: "auto", maxWidth: "160px", width: "160px" }}
               value={convert(record.basket_location)}
-              bgColor="red"
+//               bgColor="red"
             />
           ) : (
             <QRCode
               size={20}
               style={{ height: "auto", maxWidth: "160px", width: "160px" }}
               value={basketValue}
-              bgColor="red"
+//               bgColor="red"
             />
           )}
         </>
