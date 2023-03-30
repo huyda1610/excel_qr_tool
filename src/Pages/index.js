@@ -99,7 +99,7 @@ const MainPage = () => {
         <>
           <QRCode
             size={20}
-            bgColor="#4096ff"
+//             bgColor="#4096ff"
             style={{ height: "auto", maxWidth: "160px", width: "160px" }}
             value={record.product_id}
           />
